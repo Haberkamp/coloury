@@ -1,7 +1,7 @@
 <template>
-  <div class="w-screen py-12 text-center bg-gray-100">
+  <div class="w-screen py-12 text-center bg-gray-800 text-white">
     <div class="container">
-      <p class="italic text-gray-700" v-html="$t('footer.credit')"></p>
+      <p v-html="$t('footer.credit')"></p>
     </div>
   </div>
 </template>

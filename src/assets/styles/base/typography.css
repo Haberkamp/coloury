@@ -1,0 +1,55 @@
+/* General typography */
+
+html {
+    @apply text-root;
+}
+
+body {
+    @apply text-gray-900;
+    @apply text-base;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply text-gray-800;
+}
+
+h1 {
+    @apply text-xxl;
+}
+
+h2 {
+    @apply text-xl;
+}
+
+h3 {
+    @apply text-larger;
+}
+
+h4 {
+    @apply text-large;
+}
+
+h5 {
+    @apply text-medium;
+}
+
+h6 {
+    @apply text-small;
+}
+
+/* Links */
+
+a {
+    @apply italic;
+}
+
+a:hover {
+    @apply underline;
+}
