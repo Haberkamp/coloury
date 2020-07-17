@@ -1,0 +1,20 @@
+.btn {
+    @apply rounded;
+    @apply py-2;
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply transition-colors;
+    @apply duration-100;
+}
+
+.btn.is--inline {
+    @apply inline-block;
+}
+
+.btn.is--ghost {
+    @apply bg-gray-100;
+}
+
+.btn.is--ghost:hover {
+    @apply bg-gray-300;
+}
