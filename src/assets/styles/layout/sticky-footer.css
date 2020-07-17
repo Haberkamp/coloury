@@ -1,0 +1,11 @@
+/**
+  * The sticky-footer class is a wrapper class that wraps around every element
+  * except the footer element. When the content is not as tall or taller than the
+  * height of the window. The footer gets pushed down all the way until it reaches
+  * the bottom of the screen.
+  */
+.sticky-footer {
+    --height-of-footer: 135px;
+
+    min-height: calc(100vh - var(--height-of-footer));
+}

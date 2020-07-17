@@ -3,6 +3,8 @@
 @import './base/base.css';
 @import './base/typography.css';
 
+@import './layout/sticky-footer.css';
+
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';

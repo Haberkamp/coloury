@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="sticky-footer"></div>
     <TheFooter />
   </div>
 </template>
