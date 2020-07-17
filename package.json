@@ -9,6 +9,7 @@
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/snippets/**/*.json'"
   },
   "dependencies": {
+    "color": "^3.1.2",
     "core-js": "^3.6.5",
     "tailwindcss": "^1.5.1",
     "vue": "^2.6.11",
