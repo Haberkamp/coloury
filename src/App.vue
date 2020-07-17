@@ -1,10 +1,17 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <TheFooter />
+  </div>
 </template>
 
 <script>
+  import TheFooter from './components/TheFooter';
+
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      TheFooter
+    }
   };
 </script>
 
